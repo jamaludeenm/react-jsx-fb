@@ -23,6 +23,8 @@ import { FaVideo } from 'react-icons/fa';
 import { FaPhotoVideo } from 'react-icons/fa';
 import { FaSmile } from 'react-icons/fa';
 import { FaPlusCircle } from 'react-icons/fa';
+import { FaSwift } from 'react-icons/fa';
+import { FaSpeakerDeck } from 'react-icons/fa';
 import App from './App';
 
 
@@ -162,15 +164,15 @@ const res = (
                                 <h5>Be Like Joker</h5>
                             </div>
                             <div className='chat-ico-1'>
-                                <span></span>
-                                <h5></h5>
+                                <span>{< FaSwift />}</span>
+                                <h5>switch into page</h5>
                             </div>
                             <div className='chat-ico-1'>
-                                <span></span>
-                                <h5></h5>
+                                <span>{< FaSpeakerDeck />}</span>
+                                <h5>create promotion</h5>
                             </div>
-
                         </div>
+                        <div></div>
                     </div>
                 </div>
             </div>
